@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Le Métier De Développeur: Examples</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Days+One&display=swap" rel="stylesheet">
+        <style>@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');</style>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="top-bar">
+            <button onclick="loadPage('etudes.html')" class="top-bar-btn">Études</button>
+            <button onclick="loadPage('index.html')" class="top-bar-btn">Retour</button>
+            <button onclick="loadPage('presentation.html')" class="top-bar-btn">Présentation</button>
+            <button onclick="loadPage('metiers.html')" class="top-bar-btn">Métiers Liés</button>
+            <button onclick="loadPage('src.html')" class="top-bar-btn">Sources</button>
+        </div>
+        <div class="content">
+            <h1>Examples de code créés par un développeur (Créé par openai o3-mini)</h1>
+        
+            <h2>1. Créer une page web qui dit bonjour</h2>
+            <div class="code-box"><span class="purple">&lt;h1&gt;</span><span class="white">Bonjour tout le monde</span><span class="purple">&lt;/h1&gt;</span></div>
+            <p>Un example pour créer une page simple qui affiche un message.</p>
+        
+            <h2>2. Créer un bouton interactif</h2>
+            <div class="code-box"><span class="purple">&lt;button</span> <span class="green">onclick</span>=<span class="red">"alert('Salut !')"</span><span class="purple">&gt;</span><span class="white">Clique ici</span><span class="purple">&lt;/button&gt;</span></div>
+            <p>Avec un peu de JavaScript, un simple bouton peut ếtre interactif.</p>
+        
+            <h2>3. Faire un calcul simple</h2>
+            <div class="code-box"><span class="blue">let</span> <span class="white">a</span> <span class="purple">=</span> <span class="red">5</span><span class="white">;</span><br><span class="blue">let</span> <span class="white">b</span> <span class="purple">=</span> <span class="red">3</span><span class="white">;</span><br><span class="blue">console</span><span class="white">.</span><span class="green">log</span><span class="white">(</span><span class="white">a</span> <span class="purple">+</span> <span class="white">b</span><span class="white">);</span></div>
+            <p>Ici, un exemple simple en JavaScript : additionner deux nombres et afficher le résultat dans la console.</p>
+        
+            <h2>4. Valider un formulaire</h2>
+            <div class="code-box"><span class="blue">if</span> <span class="white">(</span><span class="white">nom</span> <span class="purple">===</span> <span class="red">""</span><span class="white">)</span> <span class="white">{</span><br>&nbsp;&nbsp;<span class="green">alert</span><span class="white">(</span><span class="red">"Le nom est requis"</span><span class="white">);</span><br><span class="white">}</span></div>
+            <p>Un example pour vérifier que les champs d’un formulaire sont bien remplis avant d’envoyer les données.</p>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
